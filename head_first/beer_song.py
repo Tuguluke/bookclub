@@ -1,5 +1,5 @@
 
-word = "bottles"
+word  = "bottles"
 for beer_num in range(99, 0, -1):
     print(beer_num, word, "of beer on the wall.")
     print(beer_num, word, "of beer.")
@@ -13,4 +13,5 @@ for beer_num in range(99, 0, -1):
         if new_num == 1:
             word = "bottle"
         print(new_num, word, "of beer on the wall.")
-    print()
+    print()    
+                        
